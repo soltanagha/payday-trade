@@ -1,0 +1,6 @@
+2023-08-18 18:16:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table email (id bigint not null, body varchar(255), [*]from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table email (id bigint not null, body varchar(255), from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id)) [42001-214]
+2023-08-18 18:19:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table email (id bigint not null, body varchar(255), sent_by varchar(255), is_sent boolean not null, subject varchar(255), [*]to varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table email (id bigint not null, body varchar(255), sent_by varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id)) [42001-214]

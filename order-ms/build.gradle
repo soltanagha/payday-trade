@@ -1,0 +1,65 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.1.2'
+    id 'io.spring.dependency-management' version '1.1.2'
+
+    id "com.palantir.docker" version "0.35.0"
+}
+
+group = 'com.payday'
+version = '0.0.1'
+
+java {
+    sourceCompatibility = '17'
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    implementation project(':common')
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web:3.1.2'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
+    implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
+    implementation 'org.springframework.kafka:spring-kafka'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    compileOnly 'org.projectlombok:lombok'
+    runtimeOnly 'com.h2database:h2'
+    annotationProcessor 'org.projectlombok:lombok'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.kafka:spring-kafka-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+compileJava {
+    sourceCompatibility = 17
+    targetCompatibility = 17
+    options.compilerArgs += [
+            '-Amapstruct.defaultComponentModel=spring'
+    ]
+}
+
+String imageName = "${project.group}/${project.name}"
+docker {
+    dockerfile project.file('Dockerfile')
+    name imageName
+    files bootJar.archiveFile.get()
+    buildArgs(['JAR_FILE': "${bootJar.archiveFileName.get()}"])
+}

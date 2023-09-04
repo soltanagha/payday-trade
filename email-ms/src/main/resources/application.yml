@@ -1,0 +1,46 @@
+server:
+  port: 8778
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  application:
+    name: email-ms
+
+  kafka:
+    topic:
+      name: email
+    producer:
+      bootstrap-servers: ${KAFKA_HOST_NAME:localhost:29092}
+    consumer:
+      bootstrap-servers: ${KAFKA_HOST_NAME:localhost:29092}
+      group-id: email-id
+  datasource:
+    url: jdbc:h2:file:./src/main/resources/static/email_db;AUTO_SERVER=true
+    username: root
+    password: 12345
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: soo258588@gmail.com
+    password: ggkzwwkvmrqqozwc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+payday:
+  contextPath: http://localhost:8778

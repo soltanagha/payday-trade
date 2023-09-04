@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bba4064-9dd3-4071-a11b-687f4cdb8198" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/dto/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/CommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/CommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/dto/EmailDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/dto/EmailDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/dto/SignUpEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/event/consumer/EventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/event/consumer/EventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/event/dto/EventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/event/dto/EventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/event/dto/factory/EventFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/event/dto/factory/EventFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/event/dto/factory/impl/EventFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/event/dto/factory/impl/EventFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/event/dto/iam/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/event/dto/iam/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/event/dto/stock/StockDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/event/dto/stock/StockDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/event/dto/stock/StockUpdateEventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/event/dto/stock/StockUpdateEventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/event/enumeration/EventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/event/enumeration/EventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/event/producer/EventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/event/producer/EventProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/BadRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/BadRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/ForbiddenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/ForbiddenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/GeneralException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/GeneralException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/UnauthorizedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/UnauthorizedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/constants/HttpResponseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/constants/HttpResponseConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/factory/ExceptionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/factory/ExceptionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/factory/impl/ExceptionFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/factory/impl/ExceptionFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/util/ConstraintsViolationError.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/util/ConstraintsViolationError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/util/ExceptionCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/util/ExceptionCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/besttrade/common/exception/util/ExceptionKeyAndMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/payday/common/exception/util/ExceptionKeyAndMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/besttrade/common/CommonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/payday/common/CommonApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/besttrade/common/exception/BadRequestExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/payday/common/exception/BadRequestExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/EmailMsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/EmailMsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/controller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/dto/EmailDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/dto/EmailDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/entities/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/entities/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/event/consumer/EmailVerificationEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/event/consumer/EmailVerificationEventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/event/consumer/config/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/event/consumer/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/event/consumer/properties/KafkaProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/event/consumer/properties/KafkaProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/event/dto/EmailVerificationEventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/event/dto/EmailVerificationEventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/event/dto/EmailVerifiedEventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/event/dto/EmailVerifiedEventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/event/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/event/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/event/producer/EmailVerifiedEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/event/producer/EmailVerifiedEventProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/event/producer/EventProducerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/event/producer/EventProducerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/event/producer/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/event/producer/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/handler/EmailExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/handler/EmailExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/repository/EmailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/repository/EmailRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/java/com/besttrade/emailms/service/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/service/EmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/main/resources/static/email_db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/main/resources/static/email_db.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/test/java/com/besttrade/emailms/EmailMsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/test/java/com/payday/emailms/EmailMsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-ms/src/test/java/com/besttrade/emailms/service/EmailServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-ms/src/test/java/com/payday/emailms/service/EmailServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/IamMsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/IamMsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/dto/request/SignUpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/dto/request/SignUpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/dto/request/SigninRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/dto/request/SigninRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/dto/response/JwtAuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/dto/response/JwtAuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/entities/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/event/consumer/EmailVerifiedEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/event/consumer/EmailVerifiedEventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/event/consumer/config/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/event/consumer/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/event/consumer/properties/KafkaProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/event/consumer/properties/KafkaProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/event/dto/EmailVerificationEventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/event/dto/EmailVerificationEventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/event/dto/NewUserBalanceCreateEventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/event/dto/NewUserBalanceCreateEventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/event/producer/EmailVerificationEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/event/producer/EmailVerificationEventProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/event/producer/NewUserBalanceCreateEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/event/producer/NewUserBalanceCreateEventProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/event/producer/config/EventProducerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/event/producer/config/EventProducerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/event/producer/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/event/producer/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/handler/IamExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/handler/IamExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/service/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/service/impl/AuthenticationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/service/impl/AuthenticationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/service/impl/JwtServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/service/impl/JwtServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/java/com/besttrade/iam/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/java/com/payday/iam/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/main/resources/iam_db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/main/resources/iam_db.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/test/java/com/besttrade/iam/IamMsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/test/java/com/payday/iam/IamMsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/test/java/com/besttrade/iam/service/impl/AuthenticationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/test/java/com/payday/iam/service/impl/AuthenticationServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/test/java/com/besttrade/iam/service/impl/JwtServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/test/java/com/payday/iam/service/impl/JwtServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iam-ms/src/test/java/com/besttrade/iam/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/iam-ms/src/test/java/com/payday/iam/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/OrderMsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/OrderMsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/dto/AccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/dto/AccountDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/dto/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/dto/OrderDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/dto/mapper/OrderMapperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/dto/mapper/OrderMapperService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/dto/mapper/config/ModelMapperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/dto/mapper/config/ModelMapperConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/entity/Balance.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/entity/Balance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/entity/OrderTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/entity/OrderTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/entity/OrderType.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/entity/OrderType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/event/consumer/NewUserBalanceCreateEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/event/consumer/NewUserBalanceCreateEventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/event/consumer/StockPriceUpdateEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/event/consumer/StockPriceUpdateEventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/event/consumer/config/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/event/consumer/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/event/consumer/properties/KafkaProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/event/consumer/properties/KafkaProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/event/dto/NewUserBalanceCreateEventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/event/dto/NewUserBalanceCreateEventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/event/dto/OrderEventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/event/dto/OrderEventDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/event/producer/EventProducerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/event/producer/EventProducerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/event/producer/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/event/producer/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/event/producer/OrderBuyEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/event/producer/OrderBuyEventProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/handler/OrderExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/handler/OrderExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/repository/BalanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/repository/BalanceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/repository/OrderTransactionsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/repository/OrderTransactionsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/security/filter/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/security/filter/JwtTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/security/service/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/security/service/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/security/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/security/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/security/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/security/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/security/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/security/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/service/BalanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/service/BalanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/service/OrderTransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/service/OrderTransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/service/StockPriceUpdateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/service/StockPriceUpdateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/service/impl/BalanceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/service/impl/BalanceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/service/impl/OrderTransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/service/impl/OrderTransactionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/java/com/besttrade/orderms/service/impl/StockPriceUpdateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/java/com/payday/orderms/service/impl/StockPriceUpdateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/main/resources/order_db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/main/resources/order_db.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/test/java/com/besttrade/orderms/OrderMsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/test/java/com/payday/orderms/OrderMsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/test/java/com/besttrade/orderms/service/impl/AccountServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/test/java/com/payday/orderms/service/impl/AccountServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/test/java/com/besttrade/orderms/service/impl/BalanceServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/test/java/com/payday/orderms/service/impl/BalanceServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/test/java/com/besttrade/orderms/service/impl/OrderServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/test/java/com/payday/orderms/service/impl/OrderServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/test/java/com/besttrade/orderms/service/impl/OrderTransactionServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/test/java/com/payday/orderms/service/impl/OrderTransactionServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-ms/src/test/java/com/besttrade/orderms/service/impl/StockPriceUpdateServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-ms/src/test/java/com/payday/orderms/service/impl/StockPriceUpdateServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/besttrade/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/besttrade/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/StockMsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/StockMsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/entity/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/entity/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/event/producer/StockUpdateEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/event/producer/StockUpdateEventProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/event/producer/config/EventProducerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/event/producer/config/EventProducerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/event/producer/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/event/producer/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/handler/StockExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/handler/StockExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/security/filter/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/security/filter/JwtTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/security/service/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/security/service/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/security/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/security/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/security/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/security/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/security/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/security/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/service/RandomStockDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/service/RandomStockDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/service/SchedulingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/service/SchedulingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/service/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/service/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/service/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/service/StockServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/java/com/besttrade/stockms/service/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/java/com/payday/stockms/service/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/test/java/com/besttrade/stockms/controller/StockControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/test/java/com/payday/stockms/controller/StockControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/test/java/com/besttrade/stockms/service/RandomStockDataGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/test/java/com/payday/stockms/service/RandomStockDataGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/test/java/com/besttrade/stockms/service/StockServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/test/java/com/payday/stockms/service/StockServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-ms/src/test/java/com/besttrade/stockms/service/WorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-ms/src/test/java/com/payday/stockms/service/WorkerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/account-ms">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/common">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/email-ms">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/iam-ms">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/order-ms">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/stock-ms">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/account-ms">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2UKTZBwPvWmyzknKscK9WyHQZGO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/soltanaga.huseynov/Documents/Java/github_/payday-trade/account-ms/src/main/java/com/payday/accountms/event",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.20689656",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "spring.configuration.checksum": "0d5a625ac1c610b7598ff8e538b43dac",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\soltanaga.huseynov\Documents\Java\github_\payday-trade\account-ms\src\main\java\com\payday\accountms\event" />
+      <recent name="C:\Users\soltanaga.huseynov\Documents\Java\github_\payday-trade\account-ms\src\main\java\com\payday\accountms" />
+      <recent name="C:\Users\soltanaga.huseynov\Documents\Java\github_\payday-trade\account-ms\src\main\java\com\payday\accountms\entity" />
+      <recent name="C:\Users\soltanaga.huseynov\Documents\Java\github_\payday-trade\account-ms\src\main\resources" />
+      <recent name="C:\Users\soltanaga.huseynov\Documents\Java\github_\payday-trade\account-ms" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.payday.orderms.service.impl" />
+      <recent name="com.payday.emailms.service" />
+      <recent name="com.payday.accountms.service.impl" />
+      <recent name="com.besttrade.stockms.controller" />
+      <recent name="com.besttrade.stockms.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.payday.accountms.event.consumer" />
+      <recent name="com.payday.orderms.event.producer" />
+      <recent name="com.payday.orderms.event.consumer" />
+      <recent name="com.payday.common.dto" />
+      <recent name="com.payday.accountms.dto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle -q projects" />
+      <command value="gradle clean build bootBuildImage" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'payday.email-ms'">
+    <configuration name="Tests in 'payday.account-ms'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":account-ms:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'payday.email-ms'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":email-ms:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'payday.iam-ms'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":iam-ms:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'payday.order-ms'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":order-ms:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'payday.stock-ms'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":stock-ms:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="payday.common.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.payday.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="payday.stock-ms.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.payday.stockms.StockMsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Tests in 'payday.account-ms'" />
+      <item itemvalue="Gradle.Tests in 'payday.email-ms'" />
+      <item itemvalue="Gradle.Tests in 'payday.iam-ms'" />
+      <item itemvalue="Gradle.Tests in 'payday.order-ms'" />
+      <item itemvalue="Gradle.Tests in 'payday.stock-ms'" />
+      <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="Spring Boot.StockMsApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'payday.email-ms'" />
+        <item itemvalue="Gradle.Tests in 'payday.stock-ms'" />
+        <item itemvalue="Gradle.Tests in 'payday.order-ms'" />
+        <item itemvalue="Gradle.Tests in 'payday.iam-ms'" />
+        <item itemvalue="Gradle.Tests in 'payday.account-ms'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bba4064-9dd3-4071-a11b-687f4cdb8198" name="Changes" comment="" />
+      <created>1692687329606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692687329606</updated>
+      <workItem from="1692687348580" duration="19635000" />
+      <workItem from="1692724956903" duration="5677000" />
+      <workItem from="1692734503713" duration="9863000" />
+      <workItem from="1693067330636" duration="292000" />
+      <workItem from="1693067652303" duration="1020000" />
+      <workItem from="1693069499956" duration="4186000" />
+      <workItem from="1693073723661" duration="163000" />
+      <workItem from="1693073910127" duration="8649000" />
+      <workItem from="1693462823955" duration="766000" />
+      <workItem from="1693464949888" duration="7368000" />
+      <workItem from="1693480566826" duration="5496000" />
+      <workItem from="1693554916262" duration="7755000" />
+      <workItem from="1693572691000" duration="9818000" />
+      <workItem from="1693591014482" duration="1129000" />
+      <workItem from="1693592212320" duration="1548000" />
+      <workItem from="1693642125226" duration="202000" />
+      <workItem from="1693642344896" duration="37236000" />
+      <workItem from="1693804254309" duration="26106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.security:spring-security-core" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka_2.13" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/email-ms/src/main/java/com/payday/emailms/service/EmailServiceImpl.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.besttrade.orderms.entity.Order" memberName="account" />
+        <PinnedItemInfo parentTag="com.payday.accountms.entity.Balance" memberName="account" />
+        <PinnedItemInfo parentTag="com.payday.accountms.entity.Balance" memberName="amount" />
+        <PinnedItemInfo parentTag="org.springframework.security.authentication.UsernamePasswordAuthenticationToken" memberName="authorities" />
+        <PinnedItemInfo parentTag="com.besttrade.orderms.entity.Account" memberName="balance" />
+        <PinnedItemInfo parentTag="com.payday.accountms.entity.Balance" memberName="balanceReserved" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/besttrade$Tests_in__besttrade_iam_ms_.ic" NAME="Tests in 'besttrade.iam-ms' Coverage Results" MODIFIED="1692700727350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/payday$All_in_payday.ic" NAME="All in payday Coverage Results" MODIFIED="1693835000126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/payday$Tests_in__payday_email_ms_.ic" NAME="Tests in 'payday.email-ms' Coverage Results" MODIFIED="1693835249662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/besttrade$Tests_in__besttrade_stock_ms_.ic" NAME="Tests in 'besttrade.stock-ms' Coverage Results" MODIFIED="1692702530130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/payday$Tests_in__payday_iam_ms_.ic" NAME="Tests in 'payday.iam-ms' Coverage Results" MODIFIED="1693835084936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/payday$Tests_in__payday_stock_ms_.ic" NAME="Tests in 'payday.stock-ms' Coverage Results" MODIFIED="1693835218545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/besttrade$Tests_in__besttrade_common_.ic" NAME="Tests in 'besttrade.common' Coverage Results" MODIFIED="1692629380509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/besttrade$Tests_in__besttrade_email_ms_.ic" NAME="Tests in 'besttrade.email-ms' Coverage Results" MODIFIED="1692700663227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/besttrade$Tests_in__besttrade_order_ms_.ic" NAME="Tests in 'besttrade.order-ms' Coverage Results" MODIFIED="1692700796338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/payday$Tests_in__payday_account_ms_.ic" NAME="Tests in 'payday.account-ms' Coverage Results" MODIFIED="1693835019108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/payday$Tests_in__payday_order_ms_.ic" NAME="Tests in 'payday.order-ms' Coverage Results" MODIFIED="1693835166721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/besttrade$Tests_in__besttrade_.ic" NAME="Tests in 'besttrade' Coverage Results" MODIFIED="1692629329853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

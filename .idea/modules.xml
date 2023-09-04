@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/account-ms/payday.account-ms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/account-ms/payday.account-ms.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/payday.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/payday.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/email-ms/payday.email-ms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/email-ms/payday.email-ms.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iam-ms/payday.iam-ms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/iam-ms/payday.iam-ms.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-ms/payday.order-ms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-ms/payday.order-ms.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stock-ms/payday.stock-ms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/stock-ms/payday.stock-ms.main.iml" />
+    </modules>
+  </component>
+</project>

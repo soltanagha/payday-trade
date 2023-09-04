@@ -1,0 +1,5 @@
+//For running kafka locally run docker-compose.yaml file with the below command
+//Make sure you run command in the directory of docker-compose.yaml file
+//docker-compose.yaml can be found in the same directory as this file
+
+docker-compose up -d

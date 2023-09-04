@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.1.2'
+    id 'io.spring.dependency-management' version '1.1.2'
+
+    id "com.palantir.docker" version "0.35.0"
+}
+
+group = 'com.payday'
+version = '0.0.5'
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+bootJar {
+    enabled = true
+}
+
+dependencies {
+    implementation project(":common")
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-mail:3.1.1'
+    implementation 'org.springframework.kafka:spring-kafka'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    runtimeOnly 'com.h2database:h2'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+String imageName = "${project.group}/${project.name}"
+docker {
+    dockerfile project.file('Dockerfile')
+    name imageName
+    files bootJar.archiveFile.get()
+    buildArgs(['JAR_FILE': "${bootJar.archiveFileName.get()}"])
+}

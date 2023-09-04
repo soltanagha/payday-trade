@@ -1,0 +1,7 @@
+rootProject.name = 'payday'
+include 'common'
+include 'stock-ms'
+include 'order-ms'
+include 'iam-ms'
+include 'email-ms'
+include 'account-ms'

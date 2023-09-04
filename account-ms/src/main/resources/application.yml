@@ -1,0 +1,38 @@
+server:
+  port: 8243
+  error:
+    include-message: always
+    include-binding-errors: always
+spring:
+  application:
+    name: account-ms
+  kafka:
+    topic:
+      name: account
+    producer:
+      bootstrap-servers: ${KAFKA_HOST_NAME:localhost:29092}
+    consumer:
+      bootstrap-servers: ${KAFKA_HOST_NAME:localhost:29092}
+      group-id: account-id
+  datasource:
+    url: jdbc:h2:file:./src/main/resources/account_db;AUTO_SERVER=true
+    username: root
+    password: 12345
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+
+application:
+  security:
+    jwt:
+      secret-key: 74534E635266556B7756E3272357538734F413F4628472B4B6250645877666B5970
+      expiration: 86400000 # a day
+      refresh-token:
+        expiration: 604800000 # 7 days

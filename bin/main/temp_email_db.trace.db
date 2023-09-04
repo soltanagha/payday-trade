@@ -1,0 +1,15 @@
+2023-08-18 16:54:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table email (id bigint not null, body varchar(255), [*]from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table email (id bigint not null, body varchar(255), from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id)) [42001-214]
+2023-08-18 16:59:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table email (id bigint not null, body varchar(255), [*]from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table email (id bigint not null, body varchar(255), from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id)) [42001-214]
+2023-08-18 17:00:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table email (id bigint not null, body varchar(255), [*]from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table email (id bigint not null, body varchar(255), from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id)) [42001-214]
+2023-08-18 17:03:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table email (id bigint not null, body varchar(255), [*]from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table email (id bigint not null, body varchar(255), from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id)) [42001-214]
+2023-08-18 17:21:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table email (id bigint not null, body varchar(255), [*]from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table email (id bigint not null, body varchar(255), from varchar(255), is_sent boolean not null, subject varchar(255), to varchar(255), primary key (id)) [42001-214]
