@@ -72,5 +72,5 @@ A new order can be created through the above endpoint.
 
 Previously, Alpha Vantage API was used for stock data, but due to limitations, a switch was made to randomly generated stock prices. This production of stock data is done in the Stock-MS service every 30 seconds with a scheduler. The Order-MS service consumes this event and checks appropriate orders. If an order matches the price, the operation proceeds.
 
-Apache Kafka is configured at `localhost:9092`.
+Apache Kafka is configured at `localhost:29092`.
 
